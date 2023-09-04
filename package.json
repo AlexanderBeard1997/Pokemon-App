@@ -1,6 +1,6 @@
 {
-  "name": "first-react-app",
   "homepage": "https://AlexanderBeard1997.github.io/Pokemon-App",
+  "name": "first-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
