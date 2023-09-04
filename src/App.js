@@ -6,7 +6,7 @@ function App() {
     name: ``,
     image: ``,
     description: ``,
-  });
+  })
   const [searchPokemonName, setSearchPokemonName] = useState(``)
   const [searchedPokemon, setSearchedPokemon] = useState(null)
 
@@ -30,11 +30,11 @@ function App() {
         name: randomPokemonName,
         image: randomPokemonImg,
         description: pokemonDescription,
-      });
+      })
     } catch (error) {
       console.error(`Error fetching random Pokemon`, error)
     }
-  };
+  }
 
   const searchPokemon = async () => {
     try {
@@ -58,7 +58,7 @@ function App() {
       console.error(`Error searching for Pokémon:`, error)
       setSearchedPokemon(null)
     }
-  };
+  }
 
   const clearSearch = () => {
     setSearchedPokemon(null)
@@ -114,7 +114,7 @@ function App() {
         </div>
       )}
     </div>
-  );
+  )
 }
 
 export default App
