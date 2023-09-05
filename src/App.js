@@ -32,7 +32,7 @@ function App() {
         description: pokemonDescription,
       })
     } catch (error) {
-      console.error(`Error fetching random Pokemon`, error)
+      alert(`Error fetching random Pokemon`, error)
     }
   }
 
@@ -55,7 +55,7 @@ function App() {
         description: pokemonDescription,
       })
     } catch (error) {
-      console.error(`Error searching for Pokémon:`, error)
+      alert(`Error searching for Pokemon:`, error)
       setSearchedPokemon(null)
     }
   }
